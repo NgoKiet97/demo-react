@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './view/App';
+import App from './views/App';
 import reportWebVitals from './reportWebVitals';
 import './style/global.scss'
 
