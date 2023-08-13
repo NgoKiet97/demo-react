@@ -43,6 +43,15 @@ class Nav extends React.Component {
                 >
                     My-component
                 </NavLink>
+                <NavLink
+                    to="/user"
+                    exact={true}
+                    style={isActive => ({
+                        color: isActive ? "green" : "white"
+                    })}
+                >
+                    User
+                </NavLink>
 
                 {/* <Link to="/" exact={true}>Home</Link>
                 <Link to="/to-do-app" exact={true}>Todo-app</Link>
