@@ -1,0 +1,33 @@
+.list-to-do {
+    button {
+        cursor: pointer;
+    }
+
+    width: 400px;
+
+    .non-todo{
+        margin: 20px;
+    }
+
+    .to-do-item {
+        margin: 10px;
+        border-bottom: 1px grey solid;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &:first-child  {     
+            border-top: 1px grey solid;
+            margin-top: 30px;
+        }
+    
+        .btn-edit{
+            margin-right: 10px ;
+        }
+ 
+    }
+
+    
+
+}
